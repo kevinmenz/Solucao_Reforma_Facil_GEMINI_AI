@@ -63,7 +63,7 @@ Ao final da proposta você precisa:
 Lembre-se de que para calcular o área ou m² piso ou teto é necessário multiplicar a largura x comprimento. Para paredes considere (2x(alturaxcomprimento) + 2x(alturaxlargura)). Não efetive cálculos para medidas que não foram informadas.
 """
 
-###**Algumas técninas de engenharia de prompt que podemos observar são:**
+### **Algumas técnicas de engenharia de prompt que podemos observar são:**
 * **Zero-Shot Prompting:** Instruções diretas do que precisa ser feito.
 Exemplo:
 """
