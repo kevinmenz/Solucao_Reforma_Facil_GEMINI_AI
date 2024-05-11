@@ -3,13 +3,14 @@
 Projeto livre criado a partir dos conhecimento adquiridos na Imersão IA Alura 2024
 ## Objetivo
 Criar um fluxo de chat bot para auxiliar pessoas no planejamento e geração de propostas de orçamento para reformas residênciais ou comerciais.
-## **Premissas do projeto**
+# **Premissas do projeto**
 
 * 1º Compreender a jornada de uma reforma de imóvel.
 * 2º Listar os pontos relevantes da jornada a serem considerados no projeto.
 * 3º Elaborar um fluxo dos pontos importantes estruturando as variáveis que serão coletadas para informe posterior da IA.
 * 4º criação de código Python que efetive a coleta das informações, repasse formatado seguindo as técnicas de engenharia de prompt da Imersão AI e obtenha uma proposta de projeto com orçamento estimado ao usuário final.
-* 5º Resultado obtido aplicando as técnicas da Imersão AI ALURA 2024.
+* 5º Resultado obtido aplicando as técnicas da Imersão AI ALURA 2024
+* 6º Conclusão
   
 ## **Tópico 1 - Itens da Jornada**
 Utilizando o google Gemini AI Studio efetivamos o respectivo prompt "Quais os pontos mais importantes em uma reforma de imóvel?"
@@ -25,7 +26,7 @@ Como resposta obtemos
   * Manter um registro de todas as despesas e contratos
   * Considerar o valor de revenda e o impacto da reforma no mercado imobiliário local.
 
- # **Tópico 2 - Pontos relevantes da jornada a serem usados no projeto**
+## **Tópico 2 - Pontos relevantes da jornada a serem usados no projeto**
 
 Para o nosso projeto focaremos nos itens planejamento/escopo com o objetivo de gerar uma proposta orçamentário dentro do cenário de cada usuario/cliente que interagir com o bot.
 
@@ -163,7 +164,7 @@ model = genai.GenerativeModel(model_name=model_name,system_instruction=system_in
 for m in genai.list_models():
   print(m.name)
 ´´´
-
+## **5º Resultado obtido aplicando as técnicas da Imersão AI ALURA 2024**
 ´´´
 # Utilizando o classe chatSession do Vertex AI API para manter o contexto conforme as diversas interações são realizadas #
 chat = model.start_chat()
