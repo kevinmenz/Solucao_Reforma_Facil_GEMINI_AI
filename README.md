@@ -1,6 +1,6 @@
 # CHAT BOT PARA GERAÇÃO DE ORÇAMENTO DE REFORMA USANDO GEMINI AI
 # Solução Reforma Fácil
-Projeto livre criado a partir dos conhecimento adquiridos na Imersão IA Alura 2024
+Projeto livre criado a partir dos conhecimentos adquiridos na Imersão IA Alura 2024
 ## Objetivo
 Criar um fluxo de chat bot para auxiliar pessoas no planejamento e geração de propostas de orçamento para reformas residênciais ou comerciais.
 # **Premissas do projeto**
