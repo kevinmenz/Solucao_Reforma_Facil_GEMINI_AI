@@ -91,13 +91,13 @@ Lembre-se de que para calcular o área ou m² piso ou teto é necessário multip
 * google-generativeai
 * google-cloud-aiplatform
 
-´´´
+```
 # instalação do SDK Gemini AI e Vertex AI API
 !pip install -q -U google-generativeai
 !pip install --upgrade google-cloud-aiplatform # Necessário se for utilizar a Vertex AI API
-´´´
+```
 
-´´´
+```
 # Importação biblioteca google generatie ai (Gemini)
 import google.generativeai as genai
 # Importação das chaves "secrets" configradas em meu Google Colab
@@ -163,9 +163,9 @@ model = genai.GenerativeModel(model_name=model_name,system_instruction=system_in
 # listagem dos modelos disponíveis caso deseje testar outros
 for m in genai.list_models():
   print(m.name)
-´´´
+```
 ## **5º Resultado obtido aplicando as técnicas da Imersão AI ALURA 2024**
-´´´
+```
 # Utilizando o classe chatSession do Vertex AI API para manter o contexto conforme as diversas interações são realizadas #
 chat = model.start_chat()
 # Definindo função que irá utilizar o ChatSession para enviar os prompts para o modelo e devolver a resposta se recordando do contexto.
@@ -182,8 +182,8 @@ while prompt != "fim":
   print("Resposta:", response, "\n")
   # Espera uma nova mensagem caso o último prompt não tenha sido "fim"
   prompt = input("Digite aqui sua mensagem:")
-´´´
-´´´´
+```
+```
 Entradas e saídas do modelo
 Digite aqui sua mensagem:Oi
 Resposta: Olá! Seja bem-vindo(a) à Reforma Fácil. 
@@ -507,7 +507,7 @@ Fico feliz em ter ajudado! Se tiver qualquer outra dúvida ou precisar de algum 
  
 
 Digite aqui sua mensagem:fim
-´´´´
+```
 
 
 # **Tópico 6 - Conclusão**
